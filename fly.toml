@@ -1,0 +1,12 @@
+app = "taiwan-food-news-bot"
+primary_region = "nrt"
+
+[build]
+
+[env]
+  PUSH_HOUR = "8"
+  PUSH_MINUTE = "0"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
